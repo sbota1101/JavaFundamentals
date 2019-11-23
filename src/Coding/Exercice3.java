@@ -29,4 +29,10 @@ public class Exercice3 {
             System.out.println(array[i]);
         }
     }
+    /**
+     * Metoda initializare imi intoarce un array cu primele limit=100,in cazul nostru,nr div cu 11
+     * limit=nr din array
+     * return-un array cu primele 100 nr div cu 11
+     *
+     */
 }
