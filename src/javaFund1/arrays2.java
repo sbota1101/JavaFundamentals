@@ -9,7 +9,7 @@ public class arrays2 {
         };//se afiseaza o matrice
 
         for (int i=0; i<a.length; i++){
-            //System.out.println(a[i]);//dc imi arat ala urat???
+
             for( int j: a[i]){
                     System.out.println(j);
             }

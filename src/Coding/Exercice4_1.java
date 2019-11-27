@@ -7,6 +7,7 @@ public class Exercice4_1 {
         Scanner firstScanner = new Scanner(System.in);
         String propozitie = firstScanner.nextLine();
         System.out.println(propozitie);
+        propozitie=propozitie.toLowerCase();
         char[] litere = new char[propozitie.length()];
         int[] count = new int[propozitie.length()];
         for (int i = 0; i < propozitie.length(); i++) {

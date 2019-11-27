@@ -133,10 +133,10 @@ public class Tema {
                     }
                     break;
                 case 5:
-                    double sum=0;
-                    String regex5="(([0-9]+[.][0-9]+)|[0-9]+)";
+                    double sum = 0;
+                    String regex5 = "(([0-9]+[.][0-9]+)|[0-9]+)";
                     Pattern pattern5 = Pattern.compile(regex5);
-                    Matcher matcher5= pattern5.matcher(input);
+                    Matcher matcher5 = pattern5.matcher(input);
                     while (matcher5.find()) {
 
                         System.out.println(matcher5.group());
@@ -146,8 +146,27 @@ public class Tema {
 
                     System.out.println(sum);
                     break;
-
+                case 6: {
+                    String regex = "(\\b[aeiouAEIOU]\\w{2}(\\w{3})\\b)";
+                    Pattern pattern = Pattern.compile(regex);
+                    Matcher matcher = pattern.matcher(input);
+                    int words = 0;
+                    String original = "";
+                    String last3Letters = "";
+                    while (matcher.find()) {
+                        words++;
+                        original = original + "  -" + matcher.group(1);
+                        last3Letters = last3Letters + "  -" + matcher.group(2);
+                    }
+                    System.out.println("----6 letter words that start with a vowel: " + original);
+                    System.out.println("\n----The last 3 letters from all the 6 letter words that start with a vowel: " + last3Letters);
+                }
+                break;
+                default:
+                    System.out.println("Not an option, Reselect");
             }
+            System.out.println("Please select an option: ");
+            optiune = Integer.parseInt(in.nextLine());
         } while (optiune != 0);
 
 

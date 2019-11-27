@@ -2,7 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3456433c-09d2-415a-a71a-70d26fc4deef" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Home/hello/array/ex/ArmstrongNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Home/hello/array/ex/BinarySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Home/hello/array/ex/FactorialNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Home/hello/array/ex/LinearSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Home/hello/array/ex/Palindrom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curs3_1/Coding/Exercice4_1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Curs3_1/Coding/Exercice4_1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curs3_1/a3ajava/Tema.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Curs3_1/a3ajava/Tema.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Coding/Exercice12.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Coding/Exercice12.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Coding/Exercice4_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Coding/Exercice4_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/a3ajava/Tema.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/a3ajava/Tema.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javaFund1/arrays2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javaFund1/arrays2.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,6 +40,9 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="ignore.virus.scanning.warn.message" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RecentsManager">
@@ -51,9 +65,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Exercice4_1">
-    <configuration name="Exercice3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Coding.Exercice3" />
+  <component name="RunManager" selected="Application.BinarySearch">
+    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Home.hello.array.ex.BinarySearch" />
+      <module name="Curs3_1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Home.hello.array.ex.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Exercitiul12" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Coding.Exercitiul12" />
       <module name="Curs3_1" />
       <extension name="coverage">
         <pattern>
@@ -65,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Exercice4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Coding.Exercice4" />
+    <configuration name="LinearSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Home.hello.array.ex.LinearSearch" />
       <module name="Curs3_1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Coding.*" />
+          <option name="PATTERN" value="Home.hello.array.ex.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -78,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Exercice4_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Coding.Exercice4_1" />
+    <configuration name="Palindrom" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Home.hello.array.ex.Palindrom" />
       <module name="Curs3_1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Coding.*" />
+          <option name="PATTERN" value="Home.hello.array.ex.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,12 +118,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Exercices2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Coding.Exercices2" />
+    <configuration name="VarArgsSumTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ro.sdaacademy.javafundamentals.varargs.VarArgsSumTester" />
       <module name="Curs3_1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Coding.*" />
+          <option name="PATTERN" value="ro.sdaacademy.javafundamentals.varargs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,12 +131,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Fibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Home.hello.Fibonacci" />
+    <configuration name="matrice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javaFund1.matrice" />
       <module name="Curs3_1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Home.hello.*" />
+          <option name="PATTERN" value="javaFund1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,19 +145,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Fibonacci" />
-      <item itemvalue="Application.Exercices2" />
-      <item itemvalue="Application.Exercice3" />
-      <item itemvalue="Application.Exercice4" />
-      <item itemvalue="Application.Exercice4_1" />
+      <item itemvalue="Application.Exercitiul12" />
+      <item itemvalue="Application.VarArgsSumTester" />
+      <item itemvalue="Application.matrice" />
+      <item itemvalue="Application.LinearSearch" />
+      <item itemvalue="Application.Palindrom" />
+      <item itemvalue="Application.BinarySearch" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Exercice4_1" />
-        <item itemvalue="Application.Exercice4" />
-        <item itemvalue="Application.Exercice3" />
-        <item itemvalue="Application.Exercices2" />
-        <item itemvalue="Application.Fibonacci" />
+        <item itemvalue="Application.BinarySearch" />
+        <item itemvalue="Application.Palindrom" />
+        <item itemvalue="Application.LinearSearch" />
+        <item itemvalue="Application.matrice" />
+        <item itemvalue="Application.VarArgsSumTester" />
       </list>
     </recent_temporary>
   </component>
@@ -152,7 +180,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -165,6 +195,11 @@
           <url>file://$PROJECT_DIR$/src/Coding/Exercice4.java</url>
           <line>16</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Home/hello/array/ex/LinearSearch.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
