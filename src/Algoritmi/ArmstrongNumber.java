@@ -3,7 +3,7 @@ package Home.hello.array.ex;
 import java.util.Scanner;
 
 public class ArmstrongNumber {
-    //Write a java program to check Armstrong number.
+    //Write a java program to check Armstrong number-daca nr=suma cifrelor la a 3-a
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         System.out.println("Enter numer n =");

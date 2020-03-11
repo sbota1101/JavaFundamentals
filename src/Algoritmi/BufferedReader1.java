@@ -13,7 +13,7 @@ public class exercitii {
         String s = br.readLine();
         Double a = Double.parseDouble(s);
         System.out.println("a =");
-        System.out.printf("%.3f%n", a);
+        System.out.printf("%08.2f%n", a);
 
     }
 

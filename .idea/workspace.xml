@@ -2,28 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3456433c-09d2-415a-a71a-70d26fc4deef" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/out/production/Curs3_1/Coding/Exercice12.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Curs3_1/Home/hello/array/ex/ArmstrongNumber.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Curs3_1/Home/hello/array/ex/BinarySearch.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Curs3_1/Home/hello/array/ex/FactorialNumber.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Curs3_1/Home/hello/array/ex/LinearSearch.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Curs3_1/Home/hello/array/ex/Palindrom.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Home/hello/array/CopyArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Home/hello/array/ex/Array1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Home/hello/array/ex/Array2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Home/hello/array/ex/Array3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Curs3_1/Home/hello/array/CopyArray.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Curs3_1/Home/hello/array/ex/Array1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Curs3_1/Home/hello/array/ex/Array2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Curs3_1/Home/hello/array/ex/Array3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Home/hello/array/ex/String1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Home/hello/array/ex/String2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Home/hello/array/ex/String3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Home/hello/array/ex/String4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Home/hello/array/ex/String5.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Curs3_1/Coding/Exercice4_1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Curs3_1/Coding/Exercice4_1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Curs3_1/a3ajava/Tema.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Curs3_1/a3ajava/Tema.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Coding/Exercice12.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Coding/Exercice12.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Coding/Exercice4_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Coding/Exercice4_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Home/hello/array/ex/ArmstrongNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Home/hello/array/ex/ArmstrongNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Home/hello/array/ex/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Home/hello/array/ex/BinarySearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Home/hello/array/ex/FactorialNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Home/hello/array/ex/FactorialNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Home/hello/array/ex/LinearSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Home/hello/array/ex/LinearSearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Home/hello/array/ex/Palindrom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Home/hello/array/ex/Palindrom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/a3ajava/Tema.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/a3ajava/Tema.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javaFund1/arrays2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javaFund1/arrays2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Home/hello/array/CopyArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Home/hello/array/CopyArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Home/hello/array/ex/Array1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Home/hello/array/ex/Array1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Home/hello/array/ex/Array2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Home/hello/array/ex/Array2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Home/hello/array/ex/Array3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Home/hello/array/ex/Array3.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -62,6 +54,9 @@
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="duminica" />
     </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="Home.hello.array.ex" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -75,72 +70,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Array3">
-    <configuration name="Array1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Home.hello.array.ex.Array1" />
-      <module name="Curs3_1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Home.hello.array.ex.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Array2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Home.hello.array.ex.Array2" />
-      <module name="Curs3_1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Home.hello.array.ex.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Array3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Home.hello.array.ex.Array3" />
-      <module name="Curs3_1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Home.hello.array.ex.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Home.hello.array.ex.BinarySearch" />
-      <module name="Curs3_1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Home.hello.array.ex.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CopyArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Home.hello.array.CopyArray" />
-      <module name="Curs3_1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Home.hello.array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.String5">
     <configuration name="Exercitiul12" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Coding.Exercitiul12" />
       <module name="Curs3_1" />
@@ -154,21 +84,86 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="String1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Home.hello.array.ex.String1" />
+      <module name="Curs3_1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Home.hello.array.ex.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="String2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Home.hello.array.ex.String2" />
+      <module name="Curs3_1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Home.hello.array.ex.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="String3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Home.hello.array.ex.String3" />
+      <module name="Curs3_1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Home.hello.array.ex.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="String4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Home.hello.array.ex.String4" />
+      <module name="Curs3_1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Home.hello.array.ex.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="String5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Home.hello.array.ex.String5" />
+      <module name="Curs3_1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Home.hello.array.ex.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Exercitiul12" />
-      <item itemvalue="Application.BinarySearch" />
-      <item itemvalue="Application.CopyArray" />
-      <item itemvalue="Application.Array1" />
-      <item itemvalue="Application.Array2" />
-      <item itemvalue="Application.Array3" />
+      <item itemvalue="Application.String1" />
+      <item itemvalue="Application.String2" />
+      <item itemvalue="Application.String3" />
+      <item itemvalue="Application.String4" />
+      <item itemvalue="Application.String5" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Array3" />
-        <item itemvalue="Application.Array2" />
-        <item itemvalue="Application.Array1" />
-        <item itemvalue="Application.CopyArray" />
-        <item itemvalue="Application.BinarySearch" />
+        <item itemvalue="Application.String5" />
+        <item itemvalue="Application.String4" />
+        <item itemvalue="Application.String3" />
+        <item itemvalue="Application.String2" />
+        <item itemvalue="Application.String1" />
       </list>
     </recent_temporary>
   </component>
@@ -199,15 +194,6 @@
     </option>
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Home/hello/array/ex/LinearSearch.java</url>
-          <line>10</line>
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
         <watch expression="litere[j] " />

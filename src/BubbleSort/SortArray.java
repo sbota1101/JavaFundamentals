@@ -28,8 +28,6 @@ public class SortArray {
 
             }
         } while(!sorted);
-
-        // int counter+= palindrom.eq()?1:0;-vede de cate ori a trecut forul
         //Arrays.sort(array);
         System.out.println(Arrays.toString(array));
         }
