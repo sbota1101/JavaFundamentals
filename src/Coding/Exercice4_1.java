@@ -1,7 +1,8 @@
 package Coding;
 
 import java.util.Scanner;
-
+//Create a program that reads a text from the keyboard.
+// Create a method that prints the letters and the numbers of apparitions in the read text.
 public class Exercice4_1 {
     public static void main(String[] args) {
         Scanner firstScanner = new Scanner(System.in);

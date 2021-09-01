@@ -1,8 +1,8 @@
-package Coding.Punctul;
+package Coding;
 
 import java.util.Scanner;
 
-public class Punctulgex12 {
+public class DivisionNumber {
     //m.	Read a big number from the keyboard (let’s say 20 digits). Compute the division by a one digit number.
     public static void main(String[] args) {
         System.out.println("Input the number : ");

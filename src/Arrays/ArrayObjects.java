@@ -1,6 +1,6 @@
-package javaFund1;
+package Arrays;
 
-public class array1 {
+public class ArrayObjects {
     public static void main(String[] args) {
         Object[]arrayOfObjects = new Object[3];
         arrayOfObjects[0]=1;

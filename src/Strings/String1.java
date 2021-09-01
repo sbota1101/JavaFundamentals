@@ -1,4 +1,4 @@
-package Home.hello.array.ex;
+package Strings;
 
 public class String1 {
     // Java Program to count the total number of characters in a string

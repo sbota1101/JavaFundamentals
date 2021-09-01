@@ -1,4 +1,4 @@
-package Home.hello.array.ex;
+package Strings;
 
 public class String2 {
     // Java Program to count the total number of punctuation characters exists in a String

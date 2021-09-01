@@ -1,4 +1,4 @@
-package Home.hello;
+package Algoritmi;
 
 import java.util.Scanner;
 

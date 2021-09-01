@@ -1,4 +1,4 @@
-package ro.sdaacademy.javafundamentals.varargs;
+package Varargs;
 
 public class VarargsUtiles {
     public static int getSum (int... args) {

@@ -1,4 +1,4 @@
-package Home.hello.array.ex;
+package Arrays;
 
 public class Array2 {
     //Java Program to left rotate the elements of an array
@@ -7,7 +7,7 @@ public class Array2 {
         //Initialize array
         int[] arr = new int[]{1, 2, 3, 4, 5};
         //n determine the number of times an array should be rotated
-        int n = 1;
+        int n = 2;
         //Displays original array
         System.out.println("Original array: ");
         for (int i = 0; i < arr.length; i++) {

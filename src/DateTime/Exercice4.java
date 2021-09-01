@@ -1,7 +1,6 @@
-package dateTime;
+package DateTime;
 
 import java.time.LocalDate;
-import java.time.temporal.TemporalUnit;
 
 import static java.time.temporal.ChronoUnit.DAYS;
 

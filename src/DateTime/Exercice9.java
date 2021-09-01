@@ -1,11 +1,11 @@
-package dateTime;
+package DateTime;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.Scanner;
 
 public class Exercice9 {
-    //Write a java prog that checks if a date read from console is before or after cuurent date time
+    //Write a java prog that checks if a date read from console is before or after curent date time
     public static void main(String[] args) {
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("d/MM/yyyy HH:mm:ss");
 

@@ -1,4 +1,4 @@
-package dateTime;
+package DateTime;
 
 import java.time.*;
 import java.time.format.DateTimeFormatter;
@@ -60,7 +60,11 @@ public class Tema {
         String option;
         do {
             System.out.println();
-            System.out.println("1. List all dates stored so far \n2. Provide a date position;\n   Display if date in provided position is during office hours or not\n3. List all dates in office hours\n4. (Bonus) List all dates in chronological order\n0. Exit\n\nYour Option: ");
+            System.out.println("1. List all dates stored so far \n" +
+                    "2. Provide a date position;\n   " +
+                    "Display if date in provided position is during office hours or not\n" +
+                    "3. List all dates in office hours\n" +
+                    "4. (Bonus) List all dates in chronological order\n0. Exit\n\nYour Option: ");
             option = in.nextLine();
 
             switch (option) {

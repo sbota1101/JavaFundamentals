@@ -1,4 +1,6 @@
-package ro.sdaacademy.javafundamentals;
+package Varargs;
+
+import Varargs.Borcan;
 
 public class Camara {
     public static void main(String[] args) {

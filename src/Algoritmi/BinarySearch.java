@@ -1,4 +1,4 @@
-package Home.hello.array.ex;
+package Algoritmi;
 
 public class BinarySearch {
     //Write a java program to perform binary search in java.

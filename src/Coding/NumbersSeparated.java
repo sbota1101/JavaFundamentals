@@ -1,8 +1,8 @@
-package Coding.Punctul;
+package Coding;
 
 import java.util.Scanner;
 
-public class LEx12 {
+public class NumbersSeparated {
     //l.	Read a sequence of numbers from the keyboard separated by ;.
     // Print the new numbers as a difference between the sum of the others and the actual number
     public static void main(String[] args) {

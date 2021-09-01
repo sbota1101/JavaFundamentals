@@ -1,4 +1,4 @@
-package a2ajava;
+package BubbleSort;
 
 import java.util.Scanner;
 
@@ -14,9 +14,6 @@ public class nrInterschimbate {
         int z=n;
         n=m;
         m=z;
-
-
-
         System.out.println(n);
         System.out.println(m);
     }

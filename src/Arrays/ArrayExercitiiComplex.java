@@ -1,6 +1,6 @@
-package ro.sdaacademy.javafundamentals.arrayExercise;
+package Arrays;
 
-import ro.sdaacademy.javafundamentals.varargs.VarargsUtiles;
+import Varargs.VarargsUtiles;
 
 import java.util.Scanner;
 

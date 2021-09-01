@@ -1,4 +1,4 @@
-package Home.hello.array.ex;
+package Algoritmi;
 
 import java.util.Scanner;
 
@@ -11,7 +11,7 @@ public class ArmstrongNumber {
         int uc;
         int copy=n;
         double x = 1;
-        double sum = 1;
+        double sum = 0;
         double y = 3.0;
         for (int i = 0; i < n; i++) {
             uc = n % 10;

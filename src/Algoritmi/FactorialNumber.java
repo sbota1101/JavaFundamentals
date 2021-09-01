@@ -1,4 +1,4 @@
-package Home.hello.array.ex;
+package Algoritmi;
 
 import java.util.Scanner;
 
@@ -12,6 +12,7 @@ public class FactorialNumber {
         int i = 1;
         while (i <= n) {
             nr = nr * i;
+            System.out.println(nr);
             i++;
         }
         System.out.println(nr);

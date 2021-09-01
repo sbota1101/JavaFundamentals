@@ -1,4 +1,4 @@
-package javaFund1;
+package Algoritmi;
 import java.util.Scanner;
 
 public class ifElse {
@@ -16,8 +16,7 @@ public class ifElse {
         [20-30]
         >30
          */
-        int x;
-        x=Integer.parseInt(ss);
+        int x=Integer.parseInt(ss);
         if (x<10) {
             System.out.println("x<10");
         } else {

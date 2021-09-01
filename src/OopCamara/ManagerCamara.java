@@ -1,4 +1,4 @@
-package camara;
+package OopCamara;
 
 import java.util.Scanner;
 

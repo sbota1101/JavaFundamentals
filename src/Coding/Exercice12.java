@@ -42,6 +42,10 @@ public class Exercice12 {
                     "5.Write a Java program to find the second largest element in an array.\n" +
                     "6.Write a Java program to find the number of even and odd integers in a given array of integers\n" +
                     "7.Create a program that reads two numbers. Then create another method that can print a rectangle of the size given by the parameter.\n" +
+                    "8.Write a Java program to compute the average value of an array of integers except the largest and smallest values.\n" +
+                    "9.Write a Java program to cyclically rotate a given array clockwise by one\n" +
+                    "10.Read a sequence of numbers separated by space. Print the sum of them and product. Also the difference between the biggest and the smallest.\n" +
+                    "11.Create a program that reads a number in a method. Then create another method that can print a reverse triangle of the size given by the parameter.\n"+
                     "0.Exit\n");
             System.out.println("Select an option ");
             optiune = Integer.parseInt(input.next());
@@ -66,6 +70,14 @@ public class Exercice12 {
                     break;
                 case 7:
                     punctul7(input);
+                case 8:
+                    punctul8(input);
+                case 9:
+                    punctul9(input);
+                case 10:
+                    punctul10();
+                case 11:
+                  //  punctul11();
                 case 0:
                     break;
                 default:
@@ -91,7 +103,7 @@ public class Exercice12 {
         int medie = sumArray(array) / dim;
         System.out.println(medie);
     }
-
+//Write a Java program to remove a specific element from an array. Also change the size of the array
     public static void punctul3(Scanner input) {
         System.out.println("Dati dimensiune pct 3: ");
         int dim = input.nextInt();
@@ -104,7 +116,7 @@ public class Exercice12 {
         System.out.println("Dimensiunea finala : " + array.length);
         printArray(array);
     }
-
+//Write a Java program to insert an element (specific position) into an array
     public static void punctul4(Scanner input) {
         System.out.println("Dati dimensiune, pct 4 : ");
         int dim = input.nextInt();
@@ -119,36 +131,36 @@ public class Exercice12 {
         System.out.println("Dimensiunea finala : " + array.length);
         printArray(array);
     }
-
+//Write a Java program to find the second largest element in an array
     public static void punctul5(Scanner input) {
         System.out.println("Dati dimensiune, pct 5 : ");
         int dim = input.nextInt();
         int[] array = readArray(input, dim);
         System.out.println("Al 2-lea element");
-        System.out.println(largestNumber(extractElement(array, largestNumber(array))));//extrage cel mai mare elem din array
+        System.out.println(largestNumber(extractElement(array, largestNumber(array))));//extrage cel mai mare elem din array si ramane al 2-lea cel mai mare
 
     }
+//Write a Java program to find the number of even and odd integers in a given array of integers
     public static void punctul6(Scanner input) {
         System.out.println("Dati dimensiune, pct 6 : ");
         int dim = input.nextInt();
         int[] array = readArray(input, dim);
-        System.out.println("Numere pare"+countEven(array));
-        System.out.println("numere impare"+countOdd(array));
+        System.out.println("Numere pare" + countEven(array));
+        System.out.println("numere impare" + countOdd(array));
 
     }
-    public static void punctul7(Scanner input){
+//Create a program that reads two numbers. Then create another method that can print a rectangle of the size given by the parameter
+    public static void punctul7(Scanner input) {
         System.out.println("Citim lungime");
-        int lungime=input.nextInt();
+        int lungime = input.nextInt();
         System.out.println("citim latime");
-        int latime=input.nextInt();
-        for (int i = 0; i <latime; i++) {
-            if(i==0||i==latime-1){
-                for (int j = 0; j <lungime ; j++) {
+        int latime = input.nextInt();
+        for (int i = 0; i < latime; i++) {
+            if (i == 0 || i == latime - 1) {
+                for (int j = 0; j < lungime; j++) {
                     System.out.print("*");
                 }
-            }
-
-        else {
+            } else {
                 for (int j = 0; j < lungime; j++) {
                     if (j == 0 || j == lungime - 1) {
                         System.out.print("*");
@@ -161,6 +173,71 @@ public class Exercice12 {
         }
 
     }
+//.Write a Java program to compute the average value of an array of integers except the largest and smallest values
+    public static void punctul8(Scanner input) {
+        System.out.println("Dati dimensiune, pct 8 : ");
+        int dim = input.nextInt();
+        int[] array = readArray(input, dim);
+        array = extractElement(array, smallestNumber(array));
+        array = extractElement(array, largestNumber(array));
+        double avg = sumArray(array) / (dim - 2);
+        System.out.println("Average value: " + avg);
+    }
+//Write a Java program to cyclically rotate a given array clockwise by one
+    public static void punctul9(Scanner input) {
+        System.out.println("Dati dimensiune, pct 9 : ");
+        int dim = input.nextInt();
+        int[] array = readArray(input, dim);
+        int n = 1;
+        //Displays original array
+        System.out.println("Original array: ");
+        for (int i = 0; i < array.length; i++) {
+            System.out.print(array[i] + " ");
+        }
+        int j, first;
+        //Rotate the given array by n times toward left
+        for (int i = 0; i < n; i++) {
+
+            //Stores the first element of the array
+            first = array[0];
+            for (j = 0; j < array.length - 1; j++) {
+                //Shift element of array by one
+                array[j] = array[j + 1];
+            }
+            //First element of array will be added to the end
+            array[j] = first;
+        }
+        System.out.println();
+        //Displays resulting array after rotation
+        System.out.println("Array after left rotation: ");
+        for (int i = 0; i < array.length; i++) {
+            System.out.print(array[i] + " ");
+            System.out.println();
+        }
+    }
+    //Read a sequence of numbers separated by space. Print the sum of them and product. Also the difference between the biggest and the smallest
+    public static void punctul10() {
+        Scanner input = new Scanner(System.in);
+        System.out.println("Dati numerele: ");
+        String sirNumere = input.nextLine();
+        String[] sirArrays = sirNumere.split("\\s");
+        int[] arrays = new int[sirArrays.length];
+        for (int i = 0; i < sirArrays.length; i++) {
+            String x = sirArrays[i];
+            arrays[i] = Integer.parseInt(x);
+            System.out.println("index[" + i + "]= " + arrays[i]);
+        }
+        int sum = 0;
+        int prod = 1;
+        for (int i : arrays) {
+            sum = sum + i;
+            prod = prod * i;
+        }
+        System.out.println("suma este: " + sum);
+        System.out.println("produsul este: " + prod);
+    }
+
+
 
 
     public static int[] addPosition(int[] array, int index, int value) {
@@ -192,6 +269,13 @@ public class Exercice12 {
             sum = sum + array[i];
         }
         return sum;
+    }
+    public static int produsArray(int[] array) {
+        int produs = 1;
+        for (int i = 0; i < array.length; i++) {
+            produs = produs* array[i];
+        }
+        return produs;
     }
 
     public static int[] printArray(int[] array) {
@@ -225,6 +309,16 @@ public class Exercice12 {
         return maxValue;
     }
 
+    public static int smallestNumber(int[] array) {
+        int minValue = Integer.MAX_VALUE;
+        for (int i = 0; i < array.length; i++) {
+            if (array[i] < minValue) { // comparam elementele din interiorul matricei
+                minValue = array[i];
+            }
+        }
+        return minValue;
+    }
+
     public static int[] extractElement(int[] array, int value) {
         int[] newArray = new int[array.length - 1];
         int count = 0;
@@ -251,6 +345,7 @@ public class Exercice12 {
 
     public static int countOdd(int[] array) {//metoda care gas nr impare=array-pare
         return array.length - countEven(array);
-    }
+    }//met care gas nr impare
+
 
 }

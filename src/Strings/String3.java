@@ -1,4 +1,4 @@
-package Home.hello.array.ex;
+package Strings;
 
 public class String3 {
     //Java Program to count the total number of vowels and consonants in a string

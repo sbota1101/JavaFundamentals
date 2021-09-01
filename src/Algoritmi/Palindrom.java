@@ -1,4 +1,4 @@
-package Home.hello.array.ex;
+package Algoritmi;
 
 import java.util.Scanner;
 
@@ -8,14 +8,15 @@ public class Palindrom {
         Scanner in = new Scanner(System.in);
         System.out.println("Enter numer n =");
         int n = in.nextInt();
+        int copy=n;
         int oglindit = 0;
         int uc = 0;
-        for (int i = 0; i < n; i++) {
+        while(n!=0) {
             uc = n % 10;
             oglindit = oglindit * 10 + uc;
             n = n / 10;
         }
-        if (uc == oglindit) {
+        if (copy== oglindit) {
             System.out.println("The number is palindrom");
         } else {
             System.out.println("The number is not palindrom");

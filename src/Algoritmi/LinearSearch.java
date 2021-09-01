@@ -1,11 +1,11 @@
-package Home.hello.array.ex;
+package Algoritmi;
 
 import java.util.Scanner;
 
 public class LinearSearch {
     //Write a java program to perform linear search in java.
     public static void main(String[] args) {
-        int[] array = new int[5];
+        int[] array = new int[3];
         Scanner in = new Scanner(System.in);
 
         for (int i = 0; i < array.length; i++) {
@@ -20,6 +20,7 @@ public class LinearSearch {
     }
 
     public static int searchLinear(int[] array, int nr) {
+        int j;
         for (int i = 0; i < array.length; i++) {
             if (array[i] == nr) {
                 return i;

@@ -1,4 +1,4 @@
-package camara;
+package OopCamara;
 
     public class Borcan extends ObiectDinCamara {
    //camara cu modelara

@@ -1,4 +1,4 @@
-package Home.hello.array.ex;
+package Algoritmi;
 
 
 import java.util.Scanner;
@@ -11,9 +11,6 @@ public class complex {
     //    2. Cerc
     //    3. Triunghi echilateral
     //    4. Exit
-    //
-    //
-    //
     //2. Read the option from the console and store the value in a variable.
     //3. Using a do while loop display and read the option until the option is 4.
     //4. If the user inputs an option value other than 4: display and read the defining parameter for each figure.
@@ -26,7 +23,7 @@ public class complex {
     //        b. public Double perimeter(String figure, Double paramater)
     //    In the methods above the figure is the type of figure (cerc,patrat,triunghi) and parameter is the in case needed parameter.
     //    Ex cerc neede raza, patrat needes latura and triughi needs latura in order to calculate the area and perimeter.
-    //6. Using the 2 methids from point 5 display the values to the user.    Please format the value using printf: only display 2 decimals.
+    //6. Using the 2 methods from point 5 display the values to the user.    Please format the value using printf: only display 2 decimals.
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("1. Patrat \n 2. Cerc\n 3. Triunghi echilateral\n 4.Exit\n\nOption: ");

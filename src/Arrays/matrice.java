@@ -1,21 +1,21 @@
-package javaFund1;
+package Arrays;
 
 import java.util.Scanner;
-
+//se citeste o matrice de la tastaura
+/**
+ * using enchanced for write the array
+ * format:(x,v,d,f,g)
+ */
 public class matrice {
     public static void main(String[] args) {
-        String[] arrayOfStrings = new String[5];
         Scanner in = new Scanner(System.in);
-
+        int n=in.nextInt();
+        String[] arrayOfStrings = new String[n];
         for (int i = 0; i < arrayOfStrings.length; i++) {
             System.out.print("arrayOfStrings[" + i + "]=");
-            arrayOfStrings[i] = in.nextLine();
-            System.out.println("--");
-        } //se citeste o matrice de la tastaura
-        /**
-         * using enchanced for write the array
-         * format:(x,v,d,f,g)
-         */
+            arrayOfStrings[i] =in.nextLine(); ;
+            System.out.print("--");
+        }
         System.out.print("(");
         for (String ss1 : arrayOfStrings) {
             if (ss1 == (arrayOfStrings[4])) {

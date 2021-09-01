@@ -1,7 +1,7 @@
 package Coding;
 
 import java.util.Scanner;
-
+//Varianta compacta a programului
 public class Exercice4 {
     public static void main(String[] args) {
         Scanner firstScanner = new Scanner(System.in);

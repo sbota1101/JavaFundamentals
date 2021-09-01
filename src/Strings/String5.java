@@ -1,4 +1,4 @@
-package Home.hello.array.ex;
+package Strings;
 
 public class String5 {
     //Java Program to divide a string in 'N' equal parts.

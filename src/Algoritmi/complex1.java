@@ -1,4 +1,4 @@
-package Home.hello.array.ex;
+package Algoritmi;
 
 import java.util.Scanner;
 

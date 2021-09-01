@@ -1,9 +1,9 @@
-package Home.hello;
+package Algoritmi;
 
 import java.util.Scanner;
 
-public class Fibonacci {
-    //Write a java program to print fibonacci series
+public class FibonacciIterativ {
+    //Write a java program to print fibonacci series 0 1 1 2 3 5 8 ...
     public static void main(String[] args) {
         Scanner in=new Scanner(System.in);
         System.out.println("Enter numer n =");

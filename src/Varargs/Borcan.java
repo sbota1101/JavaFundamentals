@@ -1,4 +1,4 @@
-package ro.sdaacademy.javafundamentals;
+package Varargs;
 
 import java.util.Objects;
 

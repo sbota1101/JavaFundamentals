@@ -1,4 +1,4 @@
-package a2ajava;
+package BubbleSort;
 
 import java.util.Arrays;
 import java.util.Random;

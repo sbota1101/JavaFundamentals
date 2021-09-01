@@ -1,4 +1,4 @@
-package a3ajava;
+package Pattern;
 
 import java.util.Scanner;
 import java.util.regex.Matcher;

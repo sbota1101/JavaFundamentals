@@ -1,4 +1,4 @@
-package Home.hello.array.ex;
+package Strings;
 
 import java.util.Arrays;
 

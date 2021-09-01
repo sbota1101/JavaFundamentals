@@ -1,9 +1,10 @@
-package Home.hello.array;
+package Algoritmi;
 
 import java.util.Scanner;
-
+//se citesc de la tastura 3 varste si apoi se fol if-else pt a veadea unde se incadreaza
 public class age {
     public static void main(String[] args) {
+
         Scanner firstScanner =new Scanner(System.in);
         System.out.println("Enter age 1");
         int n=firstScanner.nextInt();

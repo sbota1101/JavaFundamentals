@@ -1,4 +1,4 @@
-package ro.sdaacademy.javafundamentals.varargs;
+package Varargs;
 
 public class VarArgsSumTester {
     public static void main(String[] args) {

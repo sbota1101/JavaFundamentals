@@ -1,7 +1,4 @@
-package Home.hello.array.ex;
-
-import javax.swing.*;
-
+package Arrays;
 public class Array1 {
     //Java Program to find the frequency of each element in the array
     public static void main(String[] args) {

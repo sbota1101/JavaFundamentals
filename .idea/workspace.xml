@@ -2,22 +2,175 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3456433c-09d2-415a-a71a-70d26fc4deef" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/out/production/Curs3_1/Home/hello/array/CopyArray.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Curs3_1/Home/hello/array/ex/Array1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Curs3_1/Home/hello/array/ex/Array2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Curs3_1/Home/hello/array/ex/Array3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Home/hello/array/ex/String1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Home/hello/array/ex/String2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Home/hello/array/ex/String3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Home/hello/array/ex/String4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Home/hello/array/ex/String5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Algoritmi/AsciiCharSequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Algoritmi/AutomorphicNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Algoritmi/Divide3And5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Algoritmi/HappyNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Algoritmi/ListLinearSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Algoritmi/NumberToWord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Algoritmi/PetersonNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Algoritmi/SunnyNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Algoritmi/hello.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/ArrayList1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BubbleSort/SelectionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Coding/string.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExerciceJavaAdv/Developer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExerciceJavaAdv/JavaDeveloper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExerciceJavaAdv/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExerciceJavaAdv/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercitii/BuzzNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercitii/DuckNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strings/Occurency.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strings/ReversString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Home/hello/array/CopyArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Home/hello/array/CopyArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Home/hello/array/ex/Array1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Home/hello/array/ex/Array1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Home/hello/array/ex/Array2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Home/hello/array/ex/Array2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Home/hello/array/ex/Array3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Home/hello/array/ex/Array3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curs3_1/Coding/Exercice1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Curs3_1/Coding/Exercice1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curs3_1/Coding/Exercice12.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Curs3_1/Coding/Exercice12.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curs3_1/Coding/Exercice3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Curs3_1/Coding/Exercice3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curs3_1/Coding/Exercice4_1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Curs3_1/Coding/Exercice4_1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curs3_1/Coding/Exercices2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Curs3_1/Coding/Exercices2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curs3_1/Home/hello/Fibonacci.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curs3_1/Home/hello/array/CopyArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curs3_1/Home/hello/array/PrimeNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curs3_1/Home/hello/array/age.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curs3_1/Home/hello/array/ex/ArmstrongNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curs3_1/Home/hello/array/ex/Array1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curs3_1/Home/hello/array/ex/Array2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curs3_1/Home/hello/array/ex/Array3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curs3_1/Home/hello/array/ex/BinarySearch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curs3_1/Home/hello/array/ex/FactorialNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curs3_1/Home/hello/array/ex/LinearSearch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curs3_1/Home/hello/array/ex/Palindrom.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curs3_1/Home/hello/array/ex/String1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curs3_1/Home/hello/array/ex/String2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curs3_1/Home/hello/array/ex/String3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curs3_1/Home/hello/array/ex/String4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curs3_1/Home/hello/array/ex/String5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curs3_1/Home/hello/array/ex/complex.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curs3_1/Home/hello/array/ex/complex1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curs3_1/Home/hello/array/ex/revers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curs3_1/Home/hello/array/exercitii.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curs3_1/Home/hello/array/palindrom.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curs3_1/Home/hello/maxim3nr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curs3_1/Home/hello/string.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curs3_1/Home/hello/world.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curs3_1/META-INF/Curs3_1.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curs3_1/a2ajava/SortArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curs3_1/a2ajava/nrInterschimbate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curs3_1/a3ajava/PatternEx1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curs3_1/a3ajava/PatternEx2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curs3_1/a3ajava/PatternEx3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curs3_1/a3ajava/Tema.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curs3_1/camara/Borcan.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curs3_1/camara/Camara.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curs3_1/camara/ManagerCamara.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curs3_1/camara/ObiectDinCamara.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curs3_1/camara/Raft.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curs3_1/camara/Stelaj.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curs3_1/camara/Sticla.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curs3_1/dateTime/DateAndTime.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Curs3_1/dateTime/DateAndTime.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curs3_1/dateTime/Exercice2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Curs3_1/dateTime/Exercice2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curs3_1/dateTime/Exercice3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Curs3_1/dateTime/Exercice3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curs3_1/dateTime/Exercice4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Curs3_1/dateTime/Exercice4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curs3_1/dateTime/Exercice5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Curs3_1/dateTime/Exercice5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curs3_1/dateTime/Exercice6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Curs3_1/dateTime/Exercice6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curs3_1/dateTime/Exercice7.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Curs3_1/dateTime/Exercice7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curs3_1/dateTime/Exercice8.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Curs3_1/dateTime/Exercice8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curs3_1/dateTime/Exercice9.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Curs3_1/dateTime/Exercice9.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curs3_1/dateTime/Sortator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Curs3_1/dateTime/Sortator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curs3_1/dateTime/Tema.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Curs3_1/dateTime/Tema.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curs3_1/dateTime/Tema1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Curs3_1/dateTime/Tema1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curs3_1/javaFund1/array1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curs3_1/javaFund1/arrays2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curs3_1/javaFund1/ifElse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curs3_1/javaFund1/matrice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curs3_1/javaFund1/switch1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curs3_1/ro/sdaacademy/javafundamentals/Borcan.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curs3_1/ro/sdaacademy/javafundamentals/Camara.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curs3_1/ro/sdaacademy/javafundamentals/arrayExercise/ArrayExercitiiComplex.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curs3_1/ro/sdaacademy/javafundamentals/varargs/VarArgsSumTester.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curs3_1/ro/sdaacademy/javafundamentals/varargs/VarargsUtiles.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algoritmi/ArmstrongNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algoritmi/ArmstrongNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algoritmi/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algoritmi/BinarySearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algoritmi/BufferedReader1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algoritmi/BufferedReader1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algoritmi/FactorialNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algoritmi/FactorialNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algoritmi/FibonacciIterativ.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algoritmi/FibonacciIterativ.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algoritmi/LinearSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algoritmi/LinearSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algoritmi/Palindrom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algoritmi/Palindrom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algoritmi/PrimeNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algoritmi/PrimeNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algoritmi/age.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algoritmi/age.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algoritmi/complex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algoritmi/complex.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algoritmi/complex1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algoritmi/complex1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algoritmi/ifElse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algoritmi/ifElse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algoritmi/maxim3nr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algoritmi/maxim3nr.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algoritmi/switch1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algoritmi/switch1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Arrays/Array1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arrays/Array1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Arrays/Array2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arrays/Array2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Arrays/Array3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arrays/Array3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Arrays/ArrayExercitiiComplex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arrays/ArrayExercitiiComplex.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Arrays/ArrayMultidimens.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arrays/ArrayMultidimens.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Arrays/ArrayObjects.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arrays/ArrayObjects.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Arrays/CopyArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arrays/CopyArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Arrays/matrice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arrays/matrice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BubbleSort/SortArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BubbleSort/SortArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BubbleSort/nrInterschimbate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BubbleSort/nrInterschimbate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Coding/DivisionNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Coding/DivisionNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Coding/Exercice1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Coding/Exercice1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Coding/Exercice10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Coding/Exercice10.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Coding/Exercice12.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Coding/Exercice12.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Coding/Exercice3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Coding/Exercice3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Coding/Exercice4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Coding/Exercice4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Coding/Exercice4_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Coding/Exercice4_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Coding/Exercice5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Coding/Exercice5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Coding/Exercice6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Coding/Exercice6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Coding/Exercice8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Coding/Exercice8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Coding/Exercice9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Coding/Exercice9.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Coding/Exercices2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Coding/Exercices2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Coding/NumbersSeparated.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Coding/NumbersSeparated.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DateTime/DateAndTime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DateTime/DateAndTime.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DateTime/Exercice2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DateTime/Exercice2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DateTime/Exercice3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DateTime/Exercice3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DateTime/Exercice4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DateTime/Exercice4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DateTime/Exercice5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DateTime/Exercice5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DateTime/Exercice6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DateTime/Exercice6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DateTime/Exercice7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DateTime/Exercice7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DateTime/Exercice8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DateTime/Exercice8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DateTime/Exercice9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DateTime/Exercice9.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DateTime/Sortator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DateTime/Sortator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DateTime/Tema.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DateTime/Tema.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DateTime/Tema1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DateTime/Tema1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Exercitii/Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exercitii/Array.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Exercitii/Array2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exercitii/Array2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Exercitii/Array3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exercitii/Array3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Exercitii/Integer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exercitii/Integer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Exercitii/JavaFundEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exercitii/JavaFundEx.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Exercitii/Letter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exercitii/Letter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Exercitii/Loop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exercitii/Loop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Exercitii/Loop2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exercitii/Loop2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Exercitii/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exercitii/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OopCamara/Borcan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OopCamara/Borcan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OopCamara/Camara.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OopCamara/Camara.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OopCamara/ManagerCamara.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OopCamara/ManagerCamara.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OopCamara/ObiectDinCamara.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OopCamara/ObiectDinCamara.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OopCamara/Raft.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OopCamara/Raft.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OopCamara/Stelaj.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OopCamara/Stelaj.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OopCamara/Sticla.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OopCamara/Sticla.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pattern/PatternEx1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pattern/PatternEx1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pattern/PatternEx2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pattern/PatternEx2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pattern/PatternEx3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pattern/PatternEx3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pattern/Tema.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pattern/Tema.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Strings/String1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strings/String1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Strings/String2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strings/String2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Strings/String3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strings/String3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Strings/String4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strings/String4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Strings/String5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strings/String5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Strings/palindrom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strings/palindrom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Strings/revers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strings/revers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Strings/string.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strings/string.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Varargs/Borcan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Varargs/Borcan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Varargs/Camara.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Varargs/Camara.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Varargs/VarArgsSumTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Varargs/VarArgsSumTester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Varargs/VarargsUtiles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Varargs/VarargsUtiles.java" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,6 +182,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
@@ -38,39 +192,53 @@
   </component>
   <component name="ProjectId" id="1T64IBs2wxzUdB7kZvgEKSg3g0u" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="ignore.virus.scanning.warn.message" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Testing1101" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="ExerciceJavaAdv" />
+      <recent name="Home.hello.array.ex" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="ro.sdaacademy.javafundamentals" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Arrays" />
       <recent name="duminica" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="Home.hello.array.ex" />
-    </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.String5">
+  <component name="RunManager" selected="Application.BuzzNumbers">
+    <configuration name="BuzzNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exercitii.BuzzNumbers" />
+      <module name="Curs3_1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Exercitii.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Exercitiul12" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Coding.Exercitiul12" />
       <module name="Curs3_1" />
@@ -84,12 +252,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="String1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Home.hello.array.ex.String1" />
+    <configuration name="Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exercitii.Main2" />
       <module name="Curs3_1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Home.hello.array.ex.*" />
+          <option name="PATTERN" value="Exercitii.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,12 +265,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="String2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Home.hello.array.ex.String2" />
+    <configuration name="SelectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BubbleSort.SelectionSort" />
       <module name="Curs3_1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Home.hello.array.ex.*" />
+          <option name="PATTERN" value="BubbleSort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,12 +278,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="String3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Home.hello.array.ex.String3" />
+    <configuration name="SortArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BubbleSort.SortArray" />
       <module name="Curs3_1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Home.hello.array.ex.*" />
+          <option name="PATTERN" value="BubbleSort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,25 +291,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="String4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Home.hello.array.ex.String4" />
+    <configuration name="exString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Coding.exString" />
       <module name="Curs3_1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Home.hello.array.ex.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="String5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Home.hello.array.ex.String5" />
-      <module name="Curs3_1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Home.hello.array.ex.*" />
+          <option name="PATTERN" value="Coding.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -151,22 +306,23 @@
     </configuration>
     <list>
       <item itemvalue="Application.Exercitiul12" />
-      <item itemvalue="Application.String1" />
-      <item itemvalue="Application.String2" />
-      <item itemvalue="Application.String3" />
-      <item itemvalue="Application.String4" />
-      <item itemvalue="Application.String5" />
+      <item itemvalue="Application.BuzzNumbers" />
+      <item itemvalue="Application.Main2" />
+      <item itemvalue="Application.SelectionSort" />
+      <item itemvalue="Application.SortArray" />
+      <item itemvalue="Application.exString" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.String5" />
-        <item itemvalue="Application.String4" />
-        <item itemvalue="Application.String3" />
-        <item itemvalue="Application.String2" />
-        <item itemvalue="Application.String1" />
+        <item itemvalue="Application.BuzzNumbers" />
+        <item itemvalue="Application.SelectionSort" />
+        <item itemvalue="Application.Main2" />
+        <item itemvalue="Application.exString" />
+        <item itemvalue="Application.SortArray" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -185,19 +341,133 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint suspend="NONE" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Algoritmi/HappyNumber.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/Arrays/Array1.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/Arrays/Array1.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/Arrays/Array1.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Coding/Exercice3.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/Coding/Exercice3.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/Coding/Exercice3.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/Coding/Exercice3.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/Coding/Exercice4_1.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/Coding/Exercice4_1.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/Coding/Exercice4_1.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/Coding/Exercice4_1.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Coding/exString.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Coding/exString.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Coding/exArray.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Coding/exArray.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Coding/exArray.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Coding/exString1.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Algoritmi/HappyNumber.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/BubbleSort/SelectionSort.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Algoritmi/PetersonNumber.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Exercitii/BuzzNumbers.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
         <watch expression="litere[j] " />
         <watch expression=" litere[i]" />
+        <watch expression="args" />
       </configuration>
     </watches-manager>
   </component>
